@@ -4,8 +4,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class ZenlyApplication
+class ZenlyInfrastructureApplication
 
 fun main(args: Array<String>) {
-    runApplication<ZenlyApplication>(*args)
+    runApplication<ZenlyInfrastructureApplication>(*args)
 }
